@@ -37,9 +37,6 @@ input, textarea{
 input:focus, textarea:focus{
 	background: lightgray;
 }
-.tabla{
-	margin: 50px 0;
-}
 
 /*contenedor se usa como clase en otras etiquetas reduciendo cod*/
 .contenedor{
@@ -88,6 +85,9 @@ input:focus, textarea:focus{
 	margin-top: 70px;
 }
 
+.titulo span{
+	text-decoration: underline;
+}
 
 .title-a{
 	font-size: 24px;
@@ -99,9 +99,7 @@ input:focus, textarea:focus{
 	margin-left: 10px;
 }
 
-.titulo span{
-	text-decoration: underline;
-}
+
 
 .guitarras{
 	color: #1F313C;
@@ -266,5 +264,9 @@ input:focus, textarea:focus{
 
 .sexo{
 	margin-top: 10px;
+}
+
+.tabla{
+	margin: 50px 0;
 }
 
